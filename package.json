@@ -2,7 +2,7 @@
   "name": "hubot-irc-avalonstar",
   "version": "0.1.0",
   "author": "Bryan Veloso <bryan@revyver.com>",
-  "description": "Custom IRC adapter for Hubot 2.3.",
+  "description": "Customized IRC adapter for Hubot for use in irc.twitch.tv/#avalonstar",
   "keywords": "hubot irc adapter",
   "licenses": [
     {
