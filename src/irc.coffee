@@ -270,6 +270,7 @@ class IrcBot extends Adapter
       else
         logger.debug "msg <#{from}> #{message}"
 
+      message.emote = true
       self.receive new TextMessage(user, message)
 
     bot.addListener 'error', (message) ->
@@ -325,7 +326,7 @@ class IrcBot extends Adapter
         logger.info('Ignoring user: %s', from)
         # we'll ignore this message if it's from someone we want to ignore
         return
-      
+
       if not process.env.HUBOT_IRC_PRIVATE or process.env.HUBOT_IRC_IGNOREINVITE
         bot.join channel
 
