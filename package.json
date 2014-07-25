@@ -1,21 +1,21 @@
 {
-  "name": "hubot-irc",
-  "version": "0.2.7",
-  "author": "Fernando Ortiz <fortiz2k@gmail.com>",
-  "description": "IRC adapter for Hubot 2.3",
+  "name": "hubot-irc-avalonstar",
+  "version": "0.1.0",
+  "author": "Bryan Veloso <bryan@revyver.com>",
+  "description": "Custom IRC adapter for Hubot 2.3.",
   "keywords": "hubot irc adapter",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/nandub/hubot-irc/raw/master/LICENSE"
+      "url": "http://github.com/avalonstar/hubot-irc/raw/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nandub/hubot-irc.git"
+    "url": "git://github.com/avalonstar/hubot-irc.git"
   },
   "bugs": {
-    "url": "http://github.com/nandub/hubot-irc/issues"
+    "url": "http://github.com/avalonstar/hubot-irc/issues"
   },
   "main": "./src/irc.coffee",
   "engine": "node > 0.6.0",
